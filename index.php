@@ -2,20 +2,7 @@
 <html>
     <head>
         <style>
-            body{
-                background-color: red;
-                transition: background-color 7s;
-                margin: 0px;
-            }
-            .header{
-                padding: 2px;
-            }
-            .footer{
-                
-            }
-            hr{
-                
-            }
+            
         </style>
     </head>
     <body>
@@ -37,6 +24,7 @@
             &#xa9; DusterTheFirst 2016
         </div>
 
+<!--
         <script type="text/javascript">
             var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
@@ -50,6 +38,7 @@
                 }
             }, 5000);
 	   </script>
+-->
         
     </body>
 </html>
