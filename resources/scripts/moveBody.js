@@ -7,7 +7,7 @@ var m = document.getElementById('menu').offsetHeight;
 document.getElementById('menu').style.top = h/2 - m/2;
 
 //Timed Align
-var timer = setInterval(move, 10000);
+var timer = setInterval(move, 4000);
 
 //Aligns All
 function move(){
