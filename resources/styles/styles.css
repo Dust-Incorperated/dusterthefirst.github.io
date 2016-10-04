@@ -1,4 +1,4 @@
-/*Budy Of The Page*/
+/*Body Of The Page*/
 body{
 /*    Background Gradiant And Photo*/
     background: linear-gradient(
@@ -14,6 +14,10 @@ body{
 .spacer{
     width: 100%;
     height: 0px;
+}
+
+#content{
+    margin: 10px;
 }
 
 /*NavBar*/
@@ -89,6 +93,7 @@ a{
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/*ADD FOR WHOLE PAGE*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

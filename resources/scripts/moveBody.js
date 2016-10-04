@@ -1,5 +1,4 @@
 //Align Body
-//Align Body
 var h = document.getElementById('header').offsetHeight;
 document.getElementById('headerSpacer').style.height = h;
 //Align Menu Button
