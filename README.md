@@ -1,5 +1,8 @@
 # The Page
 - Me
+   * I am by no means a professional
+   * I do all of these things in my free time
+   * I may take up to 48hrs to respond to your questions/issues
 
 - You
 
