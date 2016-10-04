@@ -12,11 +12,12 @@
 
 # The Projects #
 ## ZIMBABWE ##
-   * Open Sourced free to use simple HTML website builder. 
+   * _Open Sourced, free to use_ simple HTML website builder. 
 
 # Other Things I Do #
 ## TEA ##
-   * Open Sourced Luna Based Coding Language For Spigot Plugins
+   * _Open Sourced_ Lua Based Coding Language For Spigot Plugins
+
 ## Custom Code ##
    * __I can help you create HTML, CSS, JavaScript, or plain Java.__
    * __Please Note__:_I do this in my free time. I am not the fastest developer out there_
