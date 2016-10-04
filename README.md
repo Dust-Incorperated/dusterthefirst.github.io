@@ -20,4 +20,4 @@
 
 ## Custom Code ##
    * __I can help you create HTML, CSS, JavaScript, or plain Java.__
-   * __Please Note__:_I do this in my free time. I am not the fastest developer out there_
+   * __Please Note__: _I do this in my free time. I am not the fastest developer out there_
