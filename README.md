@@ -11,8 +11,12 @@
 
 
 # The Projects
-- TEA
-   * Open Sourced Luna Based Coding Language For Spigot Plugins
-- Custom Code
-
 - ZIMBABWE
+   * Open Sourced free to use simple HTML website builder. 
+
+# Other Things I Do
+- ## TEA
+   * Open Sourced Luna Based Coding Language For Spigot Plugins
+- ## Custom Code
+   * __I can help you create HTML, CSS, JavaScript, or plain Java.__
+   * __Please Note__:_I do this in my free time. I am not the fastest developer out there_
