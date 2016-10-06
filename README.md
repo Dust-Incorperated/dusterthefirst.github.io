@@ -12,7 +12,9 @@
 
 # The Projects #
 ## ZIMBABWE ##
-   * _Open Sourced, free to use_ simple HTML website builder. 
+   * _Open Sourced, free to use_ simple one page HTML website builder. 
+## Pong ##
+   * _embeddable_ free to use JS MC server ping widget 
 
 # Other Things I Do #
 ## TEA ##
