@@ -20,9 +20,53 @@
             &nbsp;
         </div>
         <script src="/resources/scripts/moveBody.js"></script>
+        <style>
+            #content{
+                align-items: center;
+                text-align: center;
+                align-self: center;
+            }
+            .project a{
+                text-decoration: none;
+            }
+            .project a:hover{
+                color: darkseagreen;
+            }
+            .project{
+                width: 25%;
+                height: 1.2em;
+                margin: 0px;
+                display: block;
+                background-color: rgba(0, 0, 0, 0);
+                padding: 3px;
+                border-radius: 5px;
+                transition-property: width, height;
+                transition-duration: 1s, .2s;
+                transition-delay: 0s;
+                overflow: hidden;
+            }
+            .project:hover{
+                transition-delay: 1.5s;
+                background-color: rgba(0, 0, 0, .3);
+                height: 200px;
+                width: 50%;
+            }
+        </style>
         <div id="content">
-            I Got Stuff
-            <a href="zimbabwe/">Project ZIMBABWE</a>
+            <h1>All My Projects</h1>
+            <div class="project">
+                <a href="zimbabwe/">Project ZIMBABWE</a>
+                <hr>
+                This Project Was Going To Be A Website Builder, But Is Going To Become A Javascript Based Rich Text/MD To HTML Converter/Editor
+            </div>
+            <div class="project">
+                <a href="calc/">GET Calc</a>
+                <hr>
+                This Is A Calculator That Uses Get To Send Information To The Parser And Returns A HTML Document (Output In The  &lt;output&gt; And&lt;/output&gt; Tags)
+                <hr>
+                This Is Designed For  People Who Need To Parse And Solve Math Problems (Not For Heavy Use, Just Light Use, Like Solving A User Given Problem, Not Internal Computing)
+            </div>
+            
         </div>
         <div id="footer">
             &#xa9; DusterTheFirst 2016
