@@ -66,6 +66,18 @@
                 border-radius: 20px;
                 padding: .5em;
             }
+            .green{
+                background-color: green;
+            }
+            .keyword{
+                color: blueviolet;
+            }
+            .blue{
+                color: blue;
+            }
+            .red{
+                color: darkred;
+            }
         </style>
     </head>
     <body>
@@ -107,7 +119,29 @@
             <hr>
             <h3>How This Works</h3>
             <p>
-               My Script 
+               My Script Parses The Url From After The ?<br>
+                ex: www.example.com/hello/index.html<span class="green">?hello=itsMe&amp;i%20was=wondering</span>
+            </p>
+            <p>
+                Using <span class="keyword">location.search</span> I Can Get The Green Highlighted Text.<br>
+                Then, By Getting A Substring Of That using <span class="keyword">.substring(1)</span> I Can Trim Off The ? At The Start Of The String
+            </p>
+            <p>
+                We Now Have <span class="green">hello=itsMe&amp;i%20was=wondering</span> Left
+            </p>
+            <p>
+                But As You Can See, The Text Is Not All English, Like %20<br><span class="keyword">
+                In A URL, You Cant Use Spaces, So Instead Of Spaces, We Use %20, We Also Do That For Other Charictars Not Allowed In A URL</span><br>
+                But, We Want This Output In English, So We Use A Handy Function Called <span class="keyword">decodeURIContent()</span>, And What This Will Do Is, It Will Make All Th %20's Into Spaces And So On.
+            </p>
+            <p>
+                So Now We Have This: <span class="green">hello=itsMe&amp;i was=wondering</span>
+            </p>
+            <p>
+                Now All We Have To Do Is Split It.<br>
+                They Are Stored As So:<br>
+                The <span class="blue">Names</span> Are On The Left Of The = And The <span class="red">Values</span> Are On The Right, And The Different Pairs Are Seperated With An <span class="keyword">&amp;</span><br>
+                EX: <span class="blue">hello</span>=<span class="red">itsMe</span><span class="keyword">&amp;</span><span class="blue">i was</span>=<span class="red">wondering</span>
             </p>
         </div>
         <script>
