@@ -1,37 +1,3 @@
-<!--
-<!DOCTYPE html>
-<html>
-    <head>
-         <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
--->
-         <!--        Fixed At Top and move body down-->
-<!--
-        <div id="header">
-            <ul class="options">
--->
-    <!--            Background Color Picker-->
-<!--
-                <li>Background: <input type="color" name="Background Color" value="#ffffff" id="background color"></li>
-            </ul>
-        </div>
-        <div id="headerSpacer">
-            &nbsp;
-        </div>
-        <script src="alignBody.js"></script>
-        <div id="content">
-             hello
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
--->
-            <!--        ADD POPUP TO SAY THIS-->
-            <!--        <h2>This Page Will Use Purely Javascript To Create You A Customised Page Of Your Choosing</h2>-->
-<!--
-        </div>
-    </body>
-</html>
--->
-
 <!DOCKTYPE html>
 <html>
     <head>
@@ -58,19 +24,16 @@
         </div>
         <script src="/resources/scripts/moveBody.js"></script>
 <!--            Hold The Page-->
-        <textarea id="content">Page</textarea>
-<!--
-        <script>
-            uriContent = "data:application/octet-stream," + encodeURIComponent(content);
-            newWindow = window.open(uriContent, 'neuesDokument');
-        </script>
--->
+        <div id="content">
+            <div class="content" contenteditable="true">Page</div>
+        </div>
         <div id="footer">
             &#xa9; DusterTheFirst 2016
         </div>
         <div id="footerSpacer">
             &nbsp;
         </div>
+        <script src="resizeContent.js"></script>
         <script src="alignBottom.js"></script>
         <script src="pageMaker.js"></script>
     </body>

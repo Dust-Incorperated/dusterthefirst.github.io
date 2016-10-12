@@ -1,11 +1,13 @@
+var c = document.getElementById('content');
 
 //Timed Align
 var timer = setInterval(reload, 500);
 
 //Aligns All
 function reload(){
-    document.body.style.backgroundColor = document.getElementById("backgroundColor").value;
-    document.body.style.color = document.getElementById("textColor").value;
+    f.style.color = document.body.style.backgroundColor;
+    c.style.backgroundColor = document.getElementById("backgroundColor").value;
+    c.style.color = document.getElementById("textColor").value;
 }
 
 window.onbeforeunload = function() {
