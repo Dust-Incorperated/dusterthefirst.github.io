@@ -20,21 +20,83 @@
             &nbsp;
         </div>
         <script src="/resources/scripts/moveBody.js"></script>
+        <style>
+            #feed{
+                text-align: center;
+                background-color: rgba(100, 100, 100, .6);
+                padding: 5px;
+                border-radius: 10px;
+                margin: 20px;
+            } 
+            #feed h3{
+                margin: 5px;
+            }
+            .post{
+                background-color: rgba(50, 50, 50, .6);
+                padding: 5px;
+                border-radius: 10px;
+                margin: 10px 0%;
+            }
+            .title{
+                text-decoration: none;
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            .subtitle{
+                font-size: .9em;
+                color: rgb(150, 150, 150);
+            }
+            .content{
+                background-color: rgba(50, 50, 50, .7);
+                border-radius: 10px;
+                margin: 0% 10%;
+                padding: 1ex;
+            }
+            .date{
+                font-size: .7em;
+                color: rgb(150, 150, 150);
+            }
+        </style>
         <div id="content">
-            Welcome To My Page :D<br>
-            This Page Is Under Development,<br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
-            <br><br><br><br>
+            <div id="XML DUST FEED">
+                <div id="feed">
+                <h3>Feed</h3>
+                <div id="feedContent"></div>
+            </div>
+            <div id="holder" style="display: none;">
+                <div class="post">
+                    <a class="title" href="/"></a>
+                    <div class="subtitle"></div>
+                    <div class="content"></div>
+                    <div class="date"></div>
+                </div>
+            </div>
+            <script src="resources/scripts/jquery-3.1.1.js"></script>
+            <script>
+                var feed = document.getElementById("feedContent");
+                var holder = document.getElementById("holder");
+                
+                $.get("/xml/feed.xml", function(data){
+                    $(data).find("post").each(function(){
+                        var feedPost = holder.getElementsByClassName("post")[0].cloneNode(true);
+                        var title = feedPost.getElementsByClassName("title")[0];
+                        var subtitle = feedPost.getElementsByClassName("subtitle")[0];
+                        var content = feedPost.getElementsByClassName("content")[0];
+                        var date = feedPost.getElementsByClassName("date")[0];
+                        
+                        var post = $(this);
+                        
+                        title.innerHTML = post.find("title").text();
+                        title.href = post.find("url").text();
+                        subtitle.innerHTML = post.find("subtitle").text();
+                        content.innerHTML = post.find("content").text().replace(/;/gi, "<br>");
+                        date.innerHTML = post.find("date").text();
+                        
+                        feed.appendChild(feedPost);
+                    });
+                });
+            </script>
+            </div>
         </div>
         <div id="footer">
             &#xa9; DusterTheFirst 2016

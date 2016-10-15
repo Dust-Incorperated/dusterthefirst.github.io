@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Main Channel-->
+<channel id="main">
+    <!--Posts Top To Bottom-->
+    <!--Dont Need All Parts Of A Post-->
+    <post>
+        <title>GabderTale</title>
+        <url>https://www.youtube.com/watch?v=psZ5A4-GxnY</url>
+        <content>
+            I Have Creatified A Dogeified Song.
+        </content>
+        <date>Saturday, October 15, 2016</date>
+    </post>
+    
+    <post>
+        <title>Created Feed :)</title>
+        <url>/xml/feed.xml</url>
+        <content>
+            I Have Created This Feed With Javascript And HTML.;
+            This Feed Is Not RSS But Instaed My Own Format.;
+            Once I Create An API For This, I Will Link To The Feed And A Download To The Parser.;
+        </content>
+        <date>Saturday, October 15, 2016</date>
+    </post>
+</channel>
+
+
+<!--
+#Holds A Post
+<post>
+    #Title
+    <title>Created Feed :)</title>
+    #Title Link
+    <url>/xml/feed.xml</url>
+    #Content (Use ;s For Newline)
+    <content>
+        I Have Created This Feed With Javascript And HTML.;
+        This Feed Is Not RSS But Instaed My Own Format.;
+        Once I Create An API For This, I Will Link To The Feed And A Download To The Parser.;
+    </content>
+    #Post Date
+    <date>Saturday, October 15, 2016</date>
+</post>
+-->
