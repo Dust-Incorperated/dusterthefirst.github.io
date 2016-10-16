@@ -3,6 +3,7 @@
 <channel id="main">
     <!--Posts Top To Bottom-->
     <!--Dont Need All Parts Of A Post-->
+    
     <post>
         <title>GabderTale</title>
         <url>https://www.youtube.com/watch?v=psZ5A4-GxnY</url>
@@ -32,6 +33,8 @@
     <title>Created Feed :)</title>
     #Title Link
     <url>/xml/feed.xml</url>
+    #subtitle
+    <subtitle>hello</subtitle>
     #Content (Use ;s For Newline)
     <content>
         I Have Created This Feed With Javascript And HTML.;
