@@ -4,6 +4,15 @@
     <!--Posts Top To Bottom-->
     <!--Dont Need All Parts Of A Post-->
     
+   <post>
+      <title>Simple Spigot Due For Release On 10/5</title>
+      <url>https://github.com/DusterTheFirst/Spigot-GUI</url>
+      <content>
+         Simple Spigot Will Be Relesed On Spigot And Github By The 5th Of November
+      </content>
+      <date>Thursday, October 27, 2016</date>
+   </post>
+
     <post>
         <title>TEA Work Started Again</title>
         <url>https://github.com/DusterTheFirst/TEA/tree/master</url>
