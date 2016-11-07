@@ -3,6 +3,28 @@
 <channel id="main">
     <!--Posts Top To Bottom-->
     <!--Dont Need All Parts Of A Post-->
+
+   <post>
+      <title>WEBSITE OVERHAUL</title>
+      <url>https://github.com/DusterTheFirst/DusterTheFirst.github.io</url>
+      <content>
+         EXPECT DURASTIC CHANGES TO THE WEBSITE. THE NEW WEBSITE WILL BE IN THE 2.0 DIRECTORY.;
+         ALL URLS WILL BE MOVED.. CHECK BACK HERE FOR A LINK TO THE DIRECTORY LISTING.;
+         EXPECT CHANGES TO BE ROLLED OUT IN DECEMBER..;
+         THE NEW WEBSITE WILL REQUIRE JAVASCRIPT. MAKE SURE IT IS ENABLED.;
+         <noscript>YOU HAVE JAVASCRIPT DISABLED. PLEASE ENABLE IT.</noscript>
+      </content>
+      <date>Monday, November 7, 2016</date>
+   </post>
+
+   <post>
+      <title>Simple Spigot Relese Delayed Until The 13th</title>
+      <url>https://github.com/DusterTheFirst/Spigot-GUI</url>
+      <content>
+         Simple Spigot Will Be Relesed On Spigot And Github By The 13th Of November
+      </content>
+      <date>Monday, November 7, 2016</date>
+   </post>
     
    <post>
       <title>Simple Spigot Due For Release On 11/5</title>
